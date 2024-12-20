@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "PM46ulHgyVai6QQLRArJH5BnK1O2Asyudz2tvB6tzC0=",
+  "Source": "STKShop.ProductApi",
+  "BasePath": "_content/STKShop.ProductApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
