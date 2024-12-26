@@ -5,6 +5,10 @@
  MANUTENÇÃO: Implementação inicial da interface IProductService
  */
 
+/*
+ DATA_ATUALIZAÇÃO: 26/12/2024
+ MANUTENÇÃO: Ajuste em nome de métodos
+ */
 #endregion
 
 using STKShop.ProductApi.DTOs;
@@ -34,19 +38,19 @@ public interface IProductService
     /// </summary>
     /// <param name="productDTO">Objeto do tipo productDTO</param>
     /// <returns>produto criado</returns>
-    Task Addproduct(ProductDTO productDTO);
+    Task AddProduct(ProductDTO productDTO);
 
     /// <summary>
     /// Atualiza um produto
     /// </summary>
     /// <param name="productDTO">Objeto do tipo productDTO</param>
     /// <returns>Produto atualizado</returns>
-    Task Updateproduct(ProductDTO productDTO);
+    Task UpdateProduct(ProductDTO productDTO);
 
     /// <summary>
     /// Exclui um produto
     /// </summary>
     /// <param name="id">ID do produto</param>
     /// <returns>Produto excluído</returns>
-    Task Removeproduct(int id);
+    Task RemoveProduct(int id);
 }

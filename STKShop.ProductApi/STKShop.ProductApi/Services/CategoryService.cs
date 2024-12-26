@@ -5,6 +5,10 @@
  MANUTENÇÃO: Implementação inicial da classe CategoryService
  */
 
+/*
+ DATA_ATUALIZAÇÃO: 26/12/2024
+ MANUTENÇÃO: Correção no método de obter categoria por ID
+ */
 #endregion
 
 using AutoMapper;
@@ -59,7 +63,7 @@ public class CategoryService : ICategoryService
     /// <returns>Categoria com o respectivo ID</returns>
     public async Task<CategoryDTO> GetCategoryById(int id)
     {
-        var categoriesEntity = await _categoryRep.GetCategoriesProducts();
+        var categoriesEntity = await _categoryRep.GetById(id);
         return _mapper.Map<CategoryDTO>(categoriesEntity);
     }
 

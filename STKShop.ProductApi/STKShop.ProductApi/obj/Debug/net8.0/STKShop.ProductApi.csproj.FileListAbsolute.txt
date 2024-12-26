@@ -169,3 +169,6 @@ C:\Users\gbds8\source\repos\STKShop\STKShop.ProductApi\STKShop.ProductApi\obj\De
 C:\Users\gbds8\source\repos\STKShop\STKShop.ProductApi\STKShop.ProductApi\obj\Debug\net8.0\STKShop.ProductApi.pdb
 C:\Users\gbds8\source\repos\STKShop\STKShop.ProductApi\STKShop.ProductApi\obj\Debug\net8.0\STKShop.ProductApi.genruntimeconfig.cache
 C:\Users\gbds8\source\repos\STKShop\STKShop.ProductApi\STKShop.ProductApi\obj\Debug\net8.0\ref\STKShop.ProductApi.dll
+C:\Users\gbds8\source\repos\STKShop\STKShop.ProductApi\STKShop.ProductApi\obj\Debug\net8.0\STKShop.ProductApi.sourcelink.json
+C:\Users\gbds8\source\repos\STKShop\STKShop.ProductApi\STKShop.ProductApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\gbds8\source\repos\STKShop\STKShop.ProductApi\STKShop.ProductApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

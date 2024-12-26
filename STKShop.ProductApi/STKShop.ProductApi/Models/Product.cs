@@ -5,8 +5,15 @@
  MANUTENÇÃO: Implementação inicial da classe Product
  */
 
+/*
+ DATA_ATUALIZAÇÃO: 26/12/2024
+ MANUTENÇÃO: Adicionado JsonIgnore em propriedade nula
+ */
+
 #endregion
 
+
+using System.Text.Json.Serialization;
 
 namespace STKShop.ProductApi.Models;
 
@@ -45,6 +52,7 @@ public class Product
     /// </summary>
     public string? ImageURL { get; set; }
 
+    [JsonIgnore]
     public Category? Category { get; set; }
 
     public int CategoryId { get; set; }

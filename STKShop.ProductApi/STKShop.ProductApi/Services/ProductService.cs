@@ -5,6 +5,10 @@
  MANUTENÇÃO: Implementação inicial da interface ICategoryService
  */
 
+/*
+ DATA_ATUALIZAÇÃO: 26/12/2024
+ MANUTENÇÃO: Ajuste em nome de métodos
+ */
 #endregion
 
 using AutoMapper;
@@ -57,7 +61,7 @@ public class ProductService : IProductService
     /// </summary>
     /// <param name="productDTO">Objeto do tipo productDTO</param>
     /// <returns>produto criado</returns>
-    public async Task Addproduct(ProductDTO productDTO)
+    public async Task AddProduct(ProductDTO productDTO)
     {
         var productEntity = _mapper.Map<Product>(productDTO);
         await _productRepository.Create(productEntity);
@@ -69,7 +73,7 @@ public class ProductService : IProductService
     /// </summary>
     /// <param name="productDTO">Objeto do tipo productDTO</param>
     /// <returns>Produto atualizado</returns>
-    public async Task Updateproduct(ProductDTO productDTO)
+    public async Task UpdateProduct(ProductDTO productDTO)
     {
         var productEntity = _mapper.Map<Product>(productDTO);
         await _productRepository.Update(productEntity);
@@ -80,7 +84,7 @@ public class ProductService : IProductService
     /// </summary>
     /// <param name="id">ID do produto</param>
     /// <returns>Produto excluído</returns>
-    public async Task Removeproduct(int id)
+    public async Task RemoveProduct(int id)
     {
         var productEntity = _productRepository.GetById(id).Result;
         await _productRepository.Delete(productEntity.Id);
