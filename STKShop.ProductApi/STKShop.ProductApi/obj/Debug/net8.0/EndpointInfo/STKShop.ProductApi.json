@@ -475,9 +475,6 @@
             "type": "string",
             "nullable": true
           },
-          "category": {
-            "$ref": "#/components/schemas/Category"
-          },
           "categoryId": {
             "type": "integer",
             "format": "int32"
@@ -519,6 +516,10 @@
             "format": "int64"
           },
           "imageURL": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoryName": {
             "type": "string",
             "nullable": true
           },

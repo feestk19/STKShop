@@ -4,6 +4,11 @@
  DATA_ATUALIZAÇÃO: 19/12/2024
  MANUTENÇÃO: Implementação inicial da classe MappingProfile
  */
+
+/*------------------------------------------
+ DATA_ATUALIZAÇÃO: 26/12/2024
+ MANUTENÇÃO: Ajuste para mapear nome da categoria
+ -----------------------------------------*/
 #endregion
 
 using AutoMapper;
@@ -19,6 +24,8 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<Category, CategoryDTO>().ReverseMap();
-        CreateMap<Product, ProductDTO>().ReverseMap();
+        CreateMap<ProductDTO, Product>();
+        CreateMap<Product, ProductDTO>()
+         .ForMember(x => x.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
     }
 }

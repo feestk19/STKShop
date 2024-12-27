@@ -4,6 +4,11 @@
  DATA_ATUALIZAÇÃO: 19/12/2024
  MANUTENÇÃO: Implementação inicial da classe ProductDTO
  */
+
+/*------------------------------------------
+ DATA_ATUALIZAÇÃO: 26/12/2024
+ MANUTENÇÃO: Adicionada propriedade CategoryName
+ -----------------------------------------*/
 #endregion
 
 
@@ -55,6 +60,7 @@ public class ProductDTO
     /// Product Image URL
     /// </summary>
     public string? ImageURL { get; set; }
+    public string? CategoryName { get; set; }
 
     public Category? Category { get; set; }
 
