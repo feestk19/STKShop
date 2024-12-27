@@ -5,6 +5,10 @@
  MANUTENÇÃO: Implementação inicial da classe ProductsController
  */
 
+/*------------------------------------------
+ DATA_ATUALIZAÇÃO: 27/12/2024
+ MANUTENÇÃO: Adicionado summaries e métodos de alteração e exclusão
+ -----------------------------------------*/
 #endregion
 
 using Microsoft.AspNetCore.Mvc;
@@ -78,14 +82,11 @@ public class ProductsController : ControllerBase
     /// <param name="id">Id do produto</param>
     /// <param name="categoryDTO">Objeto que contém o produto a ser alterado</param>
     /// <returns>produto Alterado</returns>
-    [HttpPut("{id:int}")]
+    [HttpPut]
     public async Task<ActionResult> Put(int id, [FromBody] ProductDTO productDTO)
     {
-        if (id != productDTO.Id)
-            return BadRequest("Id do produto enviado é diferente do produto a ser alterado.");
-
         if (productDTO is null)
-            return BadRequest("Produto não encontrado ou inválido.");
+            return BadRequest("Dados inválido");
 
         await _productService.UpdateProduct(productDTO);
 

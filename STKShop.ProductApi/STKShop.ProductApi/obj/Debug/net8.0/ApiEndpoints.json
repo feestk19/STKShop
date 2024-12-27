@@ -157,6 +157,27 @@
   },
   {
     "ContainingType": "STKShop.ProductApi.Controllers.ProductsController",
+    "Method": "Put",
+    "RelativePath": "api/Products",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productDTO",
+        "Type": "STKShop.ProductApi.DTOs.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "STKShop.ProductApi.Controllers.ProductsController",
     "Method": "Get",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
@@ -181,27 +202,6 @@
       }
     ],
     "EndpointName": "GetProduct"
-  },
-  {
-    "ContainingType": "STKShop.ProductApi.Controllers.ProductsController",
-    "Method": "Put",
-    "RelativePath": "api/Products/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "productDTO",
-        "Type": "STKShop.ProductApi.DTOs.ProductDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "STKShop.ProductApi.Controllers.ProductsController",

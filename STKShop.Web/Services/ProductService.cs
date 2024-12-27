@@ -146,7 +146,7 @@ public class ProductService : IProductService
     /// </summary>
     /// <param name="id">Id do produto</param>
     /// <returns>True ou False caso o produto seja excluido</returns>
-    public async Task<bool> DeleteProduct(int id)
+    public async Task<bool> DeleteProductById(int id)
     {
         var client = RetornarHttpClient();
 
