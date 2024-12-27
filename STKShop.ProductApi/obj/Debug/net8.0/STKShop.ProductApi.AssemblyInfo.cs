@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("STKShop.ProductApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83e812b947983fac80cc376cb490cdcfe716ae76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e1cf10780c24a6b028f1380fe5e103e493f6006")]
 [assembly: System.Reflection.AssemblyProductAttribute("STKShop.ProductApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("STKShop.ProductApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

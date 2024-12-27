@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HrDestvIuA8=",
+  "dgSpecHash": "1S8vPLXayMg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gbds8\\source\\repos\\STKShop\\STKShop.ProductApi\\STKShop.ProductApi\\STKShop.ProductApi.csproj",
+  "projectFilePath": "C:\\Users\\gbds8\\source\\repos\\STKShop\\STKShop.ProductApi\\STKShop.ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gbds8\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gbds8\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
